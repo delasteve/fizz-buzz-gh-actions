@@ -1,0 +1,19 @@
+{
+  "name": "fizz-buzz-gh-actions",
+  "version": "0.0.1",
+  "author": {
+    "name": "Stephen Cavaliere",
+    "email": "stephen.cavaliere@leadingagile.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js .",
+    "test": "mocha ./src/fizzbuzz.spec.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "mocha": "^8.1.1"
+  }
+}
