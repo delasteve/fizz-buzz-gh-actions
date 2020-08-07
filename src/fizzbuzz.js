@@ -7,10 +7,7 @@ function evaluate(number) {
     return 'Fizz';
   }
 
-  if (number === 2) {
-    return '2';
-  }
-  return '1';
+  return `${number}`;
 }
 
 module.exports = {
