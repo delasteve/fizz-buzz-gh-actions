@@ -24,5 +24,13 @@ describe('fizz buzz', () => {
 
       assert.equal(actual, 'Fizz');
     });
+
+    it('should return "Buzz" when given 5', () => {
+      const fizzbuzz = require('./fizzbuzz');
+
+      const actual = fizzbuzz.evaluate(5);
+
+      assert.equal(actual, 'Buzz');
+    });
   });
 });
