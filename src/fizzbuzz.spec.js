@@ -25,5 +25,11 @@ describe('fizz buzz', () => {
 
       assert.equal(actual, 'Buzz');
     });
+
+    it('should return "Fizz" when given 6', () => {
+      const actual = fizzbuzz.evaluate(6);
+
+      assert.equal(actual, 'Fizz');
+    });
   });
 });

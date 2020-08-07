@@ -3,7 +3,7 @@ function evaluate(number) {
     return 'Buzz';
   }
 
-  if (number === 3) {
+  if (number % 3 === 0) {
     return 'Fizz';
   }
 
