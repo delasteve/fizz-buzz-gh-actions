@@ -1,4 +1,4 @@
-function evaluate(number) {
+function evaluate() {
   return '1';
 }
 
