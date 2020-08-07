@@ -9,5 +9,12 @@ describe('fizz buzz', () => {
 
       assert.equal(actual, '1');
     });
+    it('should return the number 2 when given 2', () => {
+      const fizzbuzz = require('./fizzbuzz');
+
+      const actual = fizzbuzz.evaluate(2);
+
+      assert.equal(actual, '2');
+    });
   });
 });
