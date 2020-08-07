@@ -10,5 +10,6 @@ module.exports = {
   extends: ['eslint:recommended'],
   rules: {
     complexity: ['error', 5],
+    eqeqeq: ['error', 'always'],
   },
 };

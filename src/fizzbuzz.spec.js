@@ -16,5 +16,13 @@ describe('fizz buzz', () => {
 
       assert.equal(actual, '2');
     });
+
+    it('should return "Fizz" when given 3', () => {
+      const fizzbuzz = require('./fizzbuzz');
+
+      const actual = fizzbuzz.evaluate(3);
+
+      assert.equal(actual, 'Fizz');
+    });
   });
 });
